@@ -1,0 +1,23 @@
+{
+  "name": "fak",
+  "version": "1.0.0",
+  "description": "Package to fake things",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borovik96/fak.git"
+  },
+  "keywords": [
+    "fake",
+    "mock"
+  ],
+  "author": "bobahbdb@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borovik96/fak/issues"
+  },
+  "homepage": "https://github.com/borovik96/fak#readme"
+}
