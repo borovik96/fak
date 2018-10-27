@@ -1,5 +1,6 @@
 const fak = new Proxy(function() {}, {
-    get() {
+    get(target, prop) {
+        if (prop === Symbol.toPrimitive) return () => '__fak-mock__';
         return fak;
     },
     apply() {
