@@ -1,5 +1,5 @@
 import fak from './index';
 
 test('It should work', () => {
-    new(new(new fak.get.get.get().get()()()().get.get.get()()()()().asd().asdad.asda.d.asdad.Adasd()()().asd()()()()().asdasd()))
+    new(new(new fak.get.get.get().get()()()().get.get.get()()()()().asd().asdad.asda.d.asdad.Adasd()()().asd()()()()().asdasd())).test()
 });

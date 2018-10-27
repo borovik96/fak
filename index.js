@@ -1,12 +1,12 @@
-const fak = noop = new Proxy(function() {}, {
+const fak = new Proxy(function() {}, {
     get() {
-        return noop;
+        return fak;
     },
     apply() {
-        return noop;
+        return fak;
     },
     construct() {
-        return noop;
+        return fak;
     }
 });
 
