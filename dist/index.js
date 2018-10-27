@@ -5,7 +5,10 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var fak = new Proxy(function () {}, {
-  get: function get() {
+  get: function get(target, prop) {
+    if (prop === Symbol.toPrimitive) return function () {
+      return '__fak-mock__';
+    };
     return fak;
   },
   apply: function apply() {
